@@ -1,0 +1,34 @@
+// Requirements 
+1. flask
+2. python requests library 
+3. python redis libary
+4. python json library
+
+
+// instruction for installation
+
+1. install flask
+  pip install flask
+2.install requests
+  pip install requests
+3.install redis
+  pip install redis
+4. install json
+  pip install json
+
+// instruction to run application
+
+1. run redis server
+    In terminal execute redis-server --port 8080
+2. run flask                                // disclaimer you might need virtual env to run application
+    * open terminal navigate to folder Meter
+    * export FLASK_APP = index.py
+    * flask  run
+    // flask by default run on port 3000
+3. Open browser
+   type url:  
+     localhost:3000/meter/ping                // to check server
+     localhost:3000/meter/scode/nocache       // where scode is station code and nocache is value passed to get new data
+     localhost:3000/meter/scode               //fetch data related to station scode
+   
+    
