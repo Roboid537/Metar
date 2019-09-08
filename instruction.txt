@@ -22,6 +22,8 @@
     In terminal execute redis-server --port 8080
 2. run flask                                // disclaimer you might need virtual env to run application
     * open terminal navigate to folder Meter
+    * execute 
+       pipenv shell
     * export FLASK_APP = index.py
     * flask  run
     // flask by default run on port 3000
